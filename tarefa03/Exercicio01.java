@@ -23,9 +23,7 @@ public class Exercicio01 {
 		String formattedAno = formatterAno.format(dataAtual);
 		
 		int diaHoje = Integer.parseInt(formattedDia);
-		
 		int mesHoje = Integer.parseInt(formattedMes);
-		
 		int anoHoje = Integer.parseInt(formattedAno);
 		
 		System.out.println("Insira o dia em que você nasceu: ");
