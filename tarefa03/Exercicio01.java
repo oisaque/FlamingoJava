@@ -16,7 +16,7 @@ public class Exercicio01 {
 		LocalDate dataAtual = LocalDate.now();
 		
 		DateTimeFormatter formatterDia = DateTimeFormatter.ofPattern("dd"); // Fomarmato do dia
-		String formattedDia = formatterDia.format(dataAtual); // Pego o dia da data atual conforme a formação passada acima
+		String formattedDia = formatterDia.format(dataAtual); // Pego o dia da data atual conforme a formatação passada acima
 		DateTimeFormatter formatterMes = DateTimeFormatter.ofPattern("MM");
 		String formattedMes = formatterMes.format(dataAtual);
 		DateTimeFormatter formatterAno = DateTimeFormatter.ofPattern("yyyy");
