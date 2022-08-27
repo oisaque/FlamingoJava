@@ -27,9 +27,8 @@ public class Exercicio02 {
 			percValido = String.format("%.2f", valido*100/eleitores);
 			
 			System.out.println("\n"+ 
-			"Tivemos um total de "+ eleitores + " votos de eleitores."+"\n"
-			+ "Os eleitores que votaram em branco representam %"
-			+percBranco+" do total com "+branco+" votos."+"\n"+
+			"Tivemos um total de "+ eleitores + " votos de eleitores."+"\n"+
+			"Os eleitores que votaram em branco representam %"+percBranco+" do total com "+branco+" votos."+"\n"+
 			"Os eleitores que votaram nulo representam %" +percNulo+" do total com "+nulo+ " votos."+"\n"+ 
 			"E por fim os eleitores com votos válidos representam %"+percValido+" do total com "+valido+" votos.");
 sc.close();
