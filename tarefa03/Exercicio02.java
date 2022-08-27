@@ -30,8 +30,6 @@ public class Exercicio02 {
 			decValido = String.format("%.0f", valido),
 			decEleitores = String.format("%.0f", eleitores);
 			
-			System.out.println(decNulo);
-			
 			System.out.println("\n"+ 
 			"Tivemos um total de "+ decEleitores + " votos de eleitores."+"\n"+
 			"Os eleitores que votaram em branco representam %"+percBranco+" do total com "+decBranco+" votos."+"\n"+
