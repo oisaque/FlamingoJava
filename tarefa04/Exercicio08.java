@@ -22,7 +22,7 @@ public class Exercicio08 {
 		System.out.println("Insira o valor de D: ");
 		int d = sc.nextInt();
 		
-		int p = a+c;
+		int p = a*c;
 		int s = b+d;
 		
 		System.out.println("O resultado do primeiro com o terceiro é: "+p);
