@@ -12,11 +12,11 @@ public class Exercicio03 {
 		System.out.println("Insira o valor de maçãs que deseja comprar: ");
 		float macas = sc.nextFloat();
 		
-		if (macas >=12) {
-			System.out.println("O custo total da compra é: "+macas);
-			
-		} else if (macas <12) {
+		if (macas >0 && macas <12) {
 			System.out.println("O custo total da compra é: "+macas*1.3);
+			
+		} else {
+			System.out.println("O custo total da compra é: "+macas);
 sc.close();
 		}
 		
