@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>Empregado</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+		<description></description>
+		<display-name>SaveServlet</display-name>
+		<servlet-name>SaveServlet</servlet-name>
+		<servlet-class>SaveServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SaveServlet</servlet-name>
+		<url-pattern>/SaveServlet</url-pattern>
+	</servlet-mapping>
+	
+   <!-- EditServlet -->
+	
+	<servlet>
+		<description></description>
+		<display-name>EditServlet</display-name>
+		<servlet-name>EditServlet</servlet-name>
+		<servlet-class>EditServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditServlet</servlet-name>
+		<url-pattern>/EditServlet</url-pattern>
+	</servlet-mapping>
+	
+	<!-- EditServlet2 -->
+	<servlet>
+		<description></description>
+		<display-name>EditServlet2</display-name>
+		<servlet-name>EditServlet2</servlet-name>
+		<servlet-class>EditServlet2</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EditServlet2</servlet-name>
+		<url-pattern>/EditServlet2</url-pattern>
+	</servlet-mapping>	
+	
+	<!-- DeleteServlet -->
+	<servlet>
+		<description></description>
+		<display-name>DeleteServlet</display-name>
+		<servlet-name>DeleteServlet</servlet-name>
+		<servlet-class>DeleteServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteServlet</servlet-name>
+		<url-pattern>/DeleteServlet</url-pattern>
+	</servlet-mapping>
+	
+	<!-- ViewServlet -->
+	<servlet>
+		<description></description>
+		<display-name>ViewServlet</display-name>
+		<servlet-name>ViewServlet</servlet-name>
+		<servlet-class>ViewServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ViewServlet</servlet-name>
+		<url-pattern>/ViewServlet</url-pattern>
+	</servlet-mapping>
+	
+</web-app>
